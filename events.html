@@ -5,16 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BOW WOW WOW</title>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="app.js" defer></script> 
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-    <h1>Dog Mix-a-lot Facts</h1>
-    <div id="container">
-        <form id="user-form">
-            <button id="submit">Random Dog Fact!</button>
-          </form>
-          <div id="result-container"></div>
+    <div id="borderimg">
+        <h1>Dog Mix-A-Lot Of Facts</h1>
+        <div id="container">
+            <form id="user-form">
+                <button id="submit">Click Here For A Random Dog Fact!</button>
+              </form>
+              <div id="result-container"></div>
+              <h2 style="display: none;">Did you enjoy your fact? Let us know below!</h2>
+              <div class="voteButtons" style="display: none;"></div>
+              <section>
+                  <canvas id="voteChart" style="display: none;"></canvas>
+              </section>
+        </div>
+
     </div>
 
 </body>

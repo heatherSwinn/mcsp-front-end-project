@@ -1,0 +1,100 @@
+body {
+    background-color: #050941;
+    height: 100dvh;
+    width: 100dvw;
+}
+.random-dog-fact {
+    font-family: cursive;
+    font-size: xx-large;
+    color: wheat;
+    padding: 6px;
+    border: dashed;
+    text-align: center;
+    margin-bottom: 15px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+#submit {
+    background-color: wheat;
+    font-family: cursive;
+    padding: 10px;
+    font-size: larger;
+    justify-items: center;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 3em;
+    background-color: #4b59a5;
+    text-align: center;
+    color: wheat;
+    border: dotted;
+
+}
+
+#user-form{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#result-container img {
+    height: auto;
+    width: 40dvw;
+    justify-content: center;
+}
+
+#result-container {
+    text-align: center;
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+
+.voteButtons {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.voteButtons button{
+    font-family: cursive;
+    background-color: wheat;
+    font-size: large;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    
+}
+
+
+.voteButtons img {
+    vertical-align: middle;
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+}
+
+section {
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+}
+
+#borderimg {
+    border: 40px solid transparent;
+    padding: 15px;
+    border-width: 40px;
+    border-image-width: 40px;
+    border-image: url(https://garden.spoonflower.com/c/13785873/p/f/m/kcgAQqhCC4eYNe-EvneiIAXKUK-buyAIGiI8fa5VLGMpyaqvU74AQvQ/Paws%2C%20Bones%2C%20Hearts%2C%20navy%2Fwhite.jpg) 10 stretch;
+  }
+
+  h2 {
+    font-family: cursive;
+    font-size: xx-large;
+    color: rgb(245, 222, 179);
+    text-align: center;
+    background-color: rgb(74, 88, 166);
+    border: double;
+  }
